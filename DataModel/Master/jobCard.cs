@@ -213,7 +213,7 @@ namespace DataModel.Master
             catch (Exception ex)
             {
 
-                throw;
+                throw ex;
             }
 
         }

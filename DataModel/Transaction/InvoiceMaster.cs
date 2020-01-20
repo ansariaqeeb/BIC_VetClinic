@@ -472,7 +472,7 @@ namespace DataModel.Transaction
             }
             catch (Exception ex)
             {
-                throw;
+                throw ex;
             }
 
         }
@@ -562,7 +562,7 @@ namespace DataModel.Transaction
             catch (Exception ex)
             {
 
-                throw;
+                throw ex;
             }
 
 
@@ -588,7 +588,7 @@ namespace DataModel.Transaction
             catch (Exception ex)
             {
 
-                throw;
+                throw ex;
             }
 
 

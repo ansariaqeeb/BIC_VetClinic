@@ -114,7 +114,7 @@ namespace DataModel.LoginModel
             catch (Exception ex)
             {
 
-                throw;
+                throw ex;
             }
 
 
