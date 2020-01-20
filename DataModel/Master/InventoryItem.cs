@@ -62,7 +62,6 @@ namespace DataModel.Master
                 _TAX = value;
             }
         }
-
         public List<PriceListMapping> PlTransList
         {
             get
