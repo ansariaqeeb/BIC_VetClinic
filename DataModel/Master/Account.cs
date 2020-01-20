@@ -9,10 +9,7 @@ using System.Xml.Linq;
 namespace DataModel.Master
 {
     public class Account
-    {
-        XDocument Xdoc;
-        DataTable dt;
-
+    { 
         string dbConnectionString = ConfigurationManager.AppSettings["dbConnectionString"];
         string evolutionCommonDBConnectionString = ConfigurationManager.AppSettings["evolutionCommonDBConnectionString"];
         string serialNumber = ConfigurationManager.AppSettings["serialNumber"];

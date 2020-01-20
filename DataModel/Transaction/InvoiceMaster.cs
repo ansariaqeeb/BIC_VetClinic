@@ -14,7 +14,6 @@ namespace DataModel.Transaction
     {
         //string invcNum = ConfigurationManager.AppSettings["INVCNUMB"];
         XDocument xdoc;
-        DataTable dt;
         #region Properties
         int _MID;
         string _INVCNUMB;
@@ -601,7 +600,6 @@ namespace DataModel.Transaction
     public class InvoiceTrans : Result.Result
     {
         XDocument xdoc;
-        DataTable dt;
         #region Properties
         int _TID;
         int _RMID;

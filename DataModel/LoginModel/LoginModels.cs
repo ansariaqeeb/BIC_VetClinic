@@ -17,10 +17,6 @@ namespace DataModel.LoginModel
         XDocument xdoc;
         DataModel.Result.Result err = new DataModel.Result.Result();
 
-        XDocument Xdoc;
-        DataTable dt;
-         
-
         #region properties 
         public int controlNo { get; set; }
         public int plantId { get; set; }

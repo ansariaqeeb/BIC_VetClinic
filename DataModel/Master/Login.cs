@@ -10,7 +10,6 @@ namespace DataModel
     public class Login
     {
         #region properties
-        XDocument xdoc;
         int _id;
         string _userName;
         string _password;

@@ -20,7 +20,6 @@ namespace DataModel.Transaction
         //int WarehouseId =Convert.ToInt32(ConfigurationManager.AppSettings["WarehouseId"]);
         #region Properties
         XDocument xdoc;
-        DataTable dt;
         string _conStr;
         string _VOYAGENO;
         int _ITEMID;

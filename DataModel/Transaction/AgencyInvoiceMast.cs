@@ -13,7 +13,6 @@ namespace DataModel.Transaction
     public class AgencyInvoiceMast : Result.Result
     {
         XDocument xdoc;
-        DataTable dt;
         #region Properties
         int mid;
         string invcNumb;
